@@ -1,1 +1,89 @@
-Specification here
+COURSEWORK ASSIGNMENT 
+UNIVERSITY OF EAST ANGLIA 
+School of Computing Sciences
+
+UNIT: CMP-7023B Data Mining
+ASSIGNMENT TITLE: Data Mining the Student Performance Dataset
+
+DATE & TIME OF SUBMISSION: 17-05-18 15:00
+ASSIGNMENT VALUE: 65%
+SET BY: G. Richards
+CHECKED BY: B. de la Iglesia
+
+
+Aims:
+To obtain an overall view of the complex process of Knowledge Discovery in Databases and understand the need for a methodical approach to KDD.
+To explore tools and algorithms available to each stage of the KDD process.
+To gain experience of using KDD software tools in a medium sized database.
+To learn to combine data manipulation and analysis approaches in order to improve the quality of input data.
+To present knowledge induced in a format suitable for the target audience and for the particular application.
+
+
+Learning outcomes:
+Competence in using KDD software tools in medium to large databases.
+Competence in applying relevant techniques at each stage of the KDD process Competence in combining data manipulation and analysis approaches in order to improve the quality of input data.
+Presentation of knowledge induced in a format suitable for the target audience and for the particular application.
+
+
+1. Database Description:
+The data used for the coursework will be the Student Performance Data Set, which can be downloaded from the UCI repository: 
+(http://archive.ics.uci.edu/ml/datasets/Student+Performance) the “student-por.csv” file should be used for this analysis. 
+This datasets contains information on students from two Portuguese schools and has been previously analysed to predict grades from 30 predictive features.
+
+
+
+2.1 Problem Description:
+i) Predict which students are likely to have absence rates greater than four days.
+ii) Describe the main factors influencing high absence rates.
+iii) Predict which students are likely to have poor health (less than three, as this represents poor health).
+iv) Describe the main factors influencing poor health.
+
+
+2.2 Prediction:
+You should split the data into training and test sets and apply two different tools; a neural network and a decision tree. 
+You should then produce a comparative study of the results based on your training data. 
+Depending on the results of your comparative study you will choose two of the models (one for absence and one for health), justifying your choice, and use those models to make the predictions for absences and health. 
+Comment on the performance of your models.
+
+When using the decision tree tool, you may wish to derive different models using:
+i) a reduced dataset which is the result of some Feature Subset Selection technique
+ii) a balanced dataset
+When using the neural network tool you may wish to investigate:
+i) the effects of varying the number of hidden layer neurons on the test set error
+ii) the effects of early stopping to prevent over-fitting on test set error
+iii) the effect of feature subset selection on test set error
+
+
+2.3 Description:
+The purpose of the description task is to give a clear insight into the factors affecting absence rates and health. 
+Descriptions can be based on regression equations, decision trees, neural network weights, graphical representations or any other form.
+
+
+
+3 Reports:
+The following 3 reports need to be submitted on the deadline day:
+
+
+3.1 Technical prediction report
+Produce a report written in 12-point font, and not exceeding six single sided A4 pages in length that describes the work undertaken from a technical perspective. 
+This should include comments on the different stages of the KDD process, and any operations you may have undertaken as a result, for example, a description of any Feature Subset Selection, any tuning of algorithm parameters, etc. 
+You should describe the different models used for prediction and their evaluation. 
+You should also explain the models chosen for your prediction task, and justify your choice.
+
+
+3.2 Description report
+You should produce a report written in 12-point font that does not exceed two single sided A4 pages in length. 
+This report should give a clear insight into the factors affecting health and attendance. 
+The descriptions and accompanying interpretation must be comprehensible to an education professional with no prior knowledge of KDD techniques. 
+The value of a description is inherently subjective.
+
+
+3.3 Data Dictionary
+Produce a data dictionary of the data as an appendix. 
+This should be a comprehensive description of the data. 
+Each field should be examined and described with statistical information for numeric fields and distributions for categorical data.
+The reports should be saved as a single PDF document. 
+This PDF document should be uploaded to the HUB in accordance with the instructions given in the student handbook including completion of the e-coversheet.
+
+
+
